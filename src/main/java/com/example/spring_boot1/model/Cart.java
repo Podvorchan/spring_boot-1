@@ -1,4 +1,4 @@
-package com.example.spring_boot1;
+package com.example.spring_boot1.model;
 
 import java.util.HashMap;
 import java.util.Map;

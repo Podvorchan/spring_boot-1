@@ -1,5 +1,6 @@
-package com.example.spring_boot1;
+package com.example.spring_boot1.configuration;
 
+import com.example.spring_boot1.model.Product;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -10,22 +11,22 @@ import org.springframework.context.annotation.Configuration;
 public class ConfigurationProduct {
 
   @Bean
-  public Product CocaCola() {
+  public Product cocaCola() {
     return new Product(1, "Coca Cola", 38.5);
   }
 
   @Bean
-  public Product Pepsi() {
+  public Product pepsi() {
     return new Product(2, "Pepsi", 40.0);
   }
 
   @Bean
-  public Product Borgomi() {
+  public Product borgomi() {
     return new Product(3, "Borgomi", 69.3);
   }
 
   @Bean
-  public Product RedBull() {
+  public Product redBull() {
     return new Product(4, "Red Bull", 59.0);
   }
 

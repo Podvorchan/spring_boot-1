@@ -1,7 +1,10 @@
-package com.example.spring_boot1;
+package com.example.spring_boot1.service;
 
 import static java.lang.System.out;
 
+import com.example.spring_boot1.repository.ProductRepository;
+import com.example.spring_boot1.model.Cart;
+import com.example.spring_boot1.model.Product;
 import java.util.Map;
 import java.util.Scanner;
 import lombok.RequiredArgsConstructor;

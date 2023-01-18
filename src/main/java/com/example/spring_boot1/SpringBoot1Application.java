@@ -1,5 +1,6 @@
 package com.example.spring_boot1;
 
+import com.example.spring_boot1.service.Servis;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

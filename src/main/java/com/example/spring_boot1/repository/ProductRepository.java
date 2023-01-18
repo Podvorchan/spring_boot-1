@@ -1,6 +1,6 @@
-package com.example.spring_boot1;
+package com.example.spring_boot1.repository;
 
-import com.example.spring_boot1.Product;
+import com.example.spring_boot1.model.Product;
 import java.util.List;
 import lombok.Data;
 import org.springframework.stereotype.Service;
